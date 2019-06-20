@@ -4,8 +4,7 @@
 /**
  * main - Entry Point
  *
- * This program prints the alphabet in lowercase
- * and then in uppercase
+ * This program prints all the numbers of base 16 in lowercase
  *
  * Return: Always 0 (Success)
  */
