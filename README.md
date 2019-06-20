@@ -1,1 +1,1 @@
-Holberton School - Low level programming
+Holberton School Low Level Programming
