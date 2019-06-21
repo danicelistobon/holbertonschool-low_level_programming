@@ -37,6 +37,7 @@ continue;
 }
 if (num1 == '9' && num2 == '8' && num3 == '9' && num4 == '9')
 {
+continue;
 }
 else
 {
