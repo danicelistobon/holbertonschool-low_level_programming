@@ -13,30 +13,26 @@ for (num = 1; num <= 100; num++)
 {
 	if ((num % 15) == 0)
 	{
-		printf("FizzBuzz");
-		printf(" ");
+		printf("FizzBuzz ");
 	}
 	else if ((num % 3) == 0)
 	{
-		printf("Fizz");
-		printf(" ");
+		printf("Fizz ");
 	}
 	else if ((num % 5) == 0)
 	{
-		printf("Buzz");
-		printf(" ");
-	}
-	else
-	{
 		if (num == 100)
 		{
-			printf("%d", num);
+			printf("Buzz");
 		}
 		else
 		{
-			printf("%d", num);
-			printf(" ");
+			printf("Buzz ");
 		}
+	}
+	else
+	{
+			printf("%d ", num);
 	}
 }
 printf("\n");
