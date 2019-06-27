@@ -28,8 +28,15 @@ for (num = 1; num <= 100; num++)
 	}
 	else
 	{
-		printf("%d", num);
-		printf(" ");
+		if (num == 100)
+		{
+			printf("%d", num);
+		}
+		else
+		{
+			printf("%d", num);
+			printf(" ");
+		}
 	}
 }
 printf("\n");
