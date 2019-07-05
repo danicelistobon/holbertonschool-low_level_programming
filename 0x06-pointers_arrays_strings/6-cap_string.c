@@ -20,6 +20,10 @@ char *cap_string(char *cs)
 		|| *(cs + c) == '(' || *(cs + c) == ')' || *(cs + c) == '{'
 		|| *(cs + c) == '}')
 		{
+			if (*(cs + c) == '\t')
+			{
+				*(cs + c) = 32;
+			}
 			k = 1;
 		}
 		else if (*(cs + c) >= 97 && *(cs + c) <= 122 && k == 1)
