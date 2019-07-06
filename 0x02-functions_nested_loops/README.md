@@ -1,5 +1,6 @@
 0x02. C - Functions, nested loops
 
+
 0. Program that prints Holberton.
 1. Function that prints the alphabet, in lowercase.
 2. Function that prints 10 times the alphabet, in lowercase.
@@ -12,3 +13,6 @@
 9. Function that prints the 9 times table, starting with 0.
 10. Function that adds two integers and returns the result.
 11. Function that prints all natural numbers from n to 98.
+
+
+-
