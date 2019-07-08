@@ -22,5 +22,13 @@ char *_strchr(char *s, char c)
 		}
 		d++;
 	}
-	return ('\0');
+
+	if (*(s + d) == c)
+	{
+		return (s + d);
+	}
+	else
+	{
+		return ('\0');
+	}
 }
