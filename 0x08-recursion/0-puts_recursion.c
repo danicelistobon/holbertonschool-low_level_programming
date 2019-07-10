@@ -4,6 +4,7 @@
  *
  * @s: pointer
  *
+ * return - void
  */
 void _puts_recursion(char *s)
 {
