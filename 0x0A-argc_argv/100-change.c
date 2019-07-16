@@ -41,5 +41,5 @@ int main(int argc, char *argv[])
 	c = c + n;
 
 	printf("%d\n", c);
-	return (c);
+	return (0);
 }
