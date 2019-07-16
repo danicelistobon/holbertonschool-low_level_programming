@@ -26,8 +26,8 @@ int main(int argc, char *argv[])
 
 	if (n < 0)
 	{
-		printf("%d\n", c);
-		return (c);
+		printf("0\n");
+		return (0);
 	}
 
 	c = c + (n / 25);
