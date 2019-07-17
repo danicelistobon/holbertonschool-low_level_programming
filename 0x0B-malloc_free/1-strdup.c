@@ -21,10 +21,6 @@ char *_strdup(char *str)
 	{
 		;
 	}
-	if (c < 1)
-	{
-		return (NULL);
-	}
 
 	cr = (char *) malloc(c * sizeof(char));
 
