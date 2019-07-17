@@ -30,6 +30,7 @@ char *_strdup(char *str)
 
 	if (cr == NULL)
 	{
+		free(cr);
 		return (NULL);
 	}
 	for (d = 0; d < c; d++)
