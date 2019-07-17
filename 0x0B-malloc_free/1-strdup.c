@@ -20,10 +20,13 @@ char *_strdup(char *str)
 	for (c = 0; *(str + c) != '\0'; c++)
 	{
 		;
+		c++;
 	}
-
-	cr = (char *) malloc(c * sizeof(char));
-
+	if (c < 1)
+	{
+		return (NULL);
+	}
+	cr = malloc(c * sizeof(char));
 	if (cr == NULL)
 	{
 		free(cr);
@@ -34,6 +37,5 @@ char *_strdup(char *str)
 		*(cr + d) = *(str + d);
 	}
 	*(cr + d) = '\0';
-
 	return (cr);
 }
