@@ -18,10 +18,8 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	for (c = 0; *(str + c) != '\0'; c++)
-	{
 		;
 		c++;
-	}
 	if (c < 1)
 	{
 		return (NULL);
