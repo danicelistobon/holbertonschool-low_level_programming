@@ -19,15 +19,13 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-	while (c < ac)
+	for (c = 0; c < ac; c++)
 	{
-		while (*(*(av + c) + d) != '\0')
+		for (d = 0; *(*(av + c) + d) != '\0'; d++)
 		{
 			count++;
-			d++;
 		}
 		count++;
-		c++;
 	}
 	count += 1;
 
