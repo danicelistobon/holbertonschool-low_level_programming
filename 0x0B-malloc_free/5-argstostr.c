@@ -33,11 +33,12 @@ char *argstostr(int ac, char **av)
 
 	aux = malloc(sizeof(char) * count);
 
+	str = aux;
+
 	if (aux == NULL)
 	{
 		return (NULL);
 	}
-	str = aux;
 	for (f = 0; f < ac; f++)
 	{
 		for (g = 0; *(*(av + f) + g) != '\0'; g++)
