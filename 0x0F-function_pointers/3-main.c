@@ -21,6 +21,8 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
+	i = atoi(argv[1]);
+	j = atoi(argv[3]);
 	f = get_op_func(argv[2]);
 
 	if (f == NULL)
@@ -28,9 +30,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-
-	i = atoi(argv[1]);
-	j = atoi(argv[3]);
 
 	if (((*(argv[2]) == '/') || (*(argv[2]) == '%')) && j == 0)
 	{
