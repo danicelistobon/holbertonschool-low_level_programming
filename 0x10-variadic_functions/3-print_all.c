@@ -10,7 +10,7 @@ void print_all(const char * const format, ...)
 {
 	va_list argl;
 	int i = 0;
-	char *str, *separator = "";
+	char *str, *separator = ", ";
 
 	va_start(argl, format);
 	while (format == NULL)
@@ -23,25 +23,27 @@ void print_all(const char * const format, ...)
 		switch (format[i])
 		{
 			case 'c':
-				printf("%s%c", separator, va_arg(argl, int));
+				printf("%c", va_arg(argl, int));
 				break;
 			case 'i':
-				printf("%s%d", separator, va_arg(argl, int));
+				printf("%d", va_arg(argl, int));
 				break;
 			case 'f':
-				printf("%s%f", separator, va_arg(argl, double));
+				printf("%f", va_arg(argl, double));
 				break;
 			case 's':
 				str = va_arg(argl, char*);
 				if (str != NULL)
 				{
-					printf("%s%s", separator, str);
+					printf("%s", str);
 					break;
 				}
 				printf("(nil)");
 				break;
 		}
-		separator = ", ";
+		if ((format[i] == 'c' || format[i] == 'i' || format[i] == 'f' ||
+		format[i] == 's') && format[i + 1] != '\0')
+			printf("%s", separator);
 		i++;
 	}
 	printf("\n");
