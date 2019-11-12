@@ -19,7 +19,7 @@ The goal of this project is to create an interpreter for Monty ByteCodes files.
 
 ## More Info
 
-### Data structures
+#### Data structures
 
 Please use the following data structures for this project. Don’t forget to include them in your header file.
 
