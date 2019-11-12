@@ -1,12 +1,13 @@
 # 0x1B. C - Sorting algorithms & Big O
 
-## Learning Objectives
+## 0. Bubble sort
+Sorts an array of integers in ascending order using the Bubble sort algorithm
+#### File: 0-bubble_sort.c, 0-O
 
-- At least four different sorting algorithms
-- What is the Big O, and how to evaluate the time complexity of an algorithm
-- How to select the best sorting algorithm for a given input
-- What is a stable sorting algorithm
+## 1. Insertion sort
+Sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
+#### File: 1-insertion_sort_list.c, 1-O
 
-## Authors
-
-[Daniel Celis Tobon](https://github.com/danicelistobon)
+## 2. Selection sort
+Sorts an array of integers in ascending order using the Selection sort algorithm
+#### File: 2-selection_sort.c, 2-O
