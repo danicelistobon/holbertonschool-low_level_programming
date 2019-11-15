@@ -1,19 +1,53 @@
-0x01. C - Variables, if, else, while
+# 0x01. C - Variables, if, else, while
 
+## 0. Positive anything is better than negative nothing
+Print whether the number stored in the variable n is positive, zero or negative
+#### File: 0-positive_or_negative.c
 
-0. This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
-1. This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
-2. Program that prints the alphabet in lowercase, followed by a new line.
-3. Program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
-4. Program that prints the alphabet in lowercase, followed by a new line. Print all the letters except q and e.
-5. Program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
-6. Program that prints all single digit numbers of base 10 starting from 0, followed by a new line. You are not allowed to use any variable of type char.
-7. Program that prints the lowercase alphabet in reverse, followed by a new line.
-8. Program that prints all the numbers of base 16 in lowercase, followed by a new line.
-9. Program that prints all possible combinations of single-digit numbers. Numbers must be separated by ,, followed by a space.
-10. Program that prints the numbers from 00 to 99. Numbers must be separated by ,, followed by a space.
+## 1. The last digit
+Print the last digit of the number stored in the variable n
+#### File: 1-last_digit.c
 
+## 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+Prints the alphabet in lowercase
+#### File: 2-print_alphabet.c
 
-- Program that prints all possible different combinations of two digits. Numbers must be separated by ,, followed by a space. The two digits must be different. 01 and 10 are considered the same combination of the two digits 0 and 1. 
-- Program that prints all possible different combinations of three digits. Numbers must be separated by ,, followed by a space. The three digits must be different. 012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2.
-- Program that prints all possible combinations of two two-digit numbers. The numbers should range from 0 to 99. The two numbers should be separated by a space. All numbers should be printed with two digits. 1 should be printed as 01. The combination of numbers must be separated by comma, followed by a space. 00 01 and 01 00 are considered as the same combination of the numbers 0 and 1.
+## 3. alphABET
+Prints the alphabet in lowercase, and then in uppercase
+#### File: 3-print_alphabets.c
+
+## 4. When I was having that alphabet soup, I never thought that it would pay off
+Prints the alphabet in lowercase (print all the letters except q and e)
+#### File: 4-print_alphabt.c
+
+## 5. Numbers
+Prints all single digit numbers of base 10 starting from 0
+#### File: 5-print_numbers.c
+
+## 6. Numberz
+Prints all single digit numbers of base 10 starting from 0
+#### File: 6-print_numberz.c
+
+## 7. Smile in the mirror
+Prints the lowercase alphabet in reverse
+#### File: 7-print_tebahpla.c
+
+## 8. Hexadecimal
+Prints all the numbers of base 16 in lowercase
+#### File: 8-print_base16.c
+
+## 9. Patience, persistence and perspiration make an unbeatable combination for success
+Prints all possible combinations of single-digit numbers
+#### File: 9-print_comb.c
+
+## 10. 00...99
+Prints the numbers from 00 to 99
+#### File: 10-print_comb2.c
+
+## 11. Inventing is a combination of brains and materials. The more brains you use, the less material you need
+Prints all possible different combinations of two digits
+#### File: 100-print_comb3.c
+
+## 12. The success combination in business is: Do what you do better... and: do more of what you do...
+Prints all possible different combinations of three digits
+#### File: 101-print_comb4.c
