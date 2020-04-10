@@ -58,4 +58,5 @@ typedef struct instruction_s
 ```
 
 ## Authors
-[Liliana Ospina Murillo](https://github.com/Liliana327) | [Daniel Celis Tobon](https://github.com/danicelistobon)
+[Liliana Ospina Murillo](https://github.com/Liliana327)
+[Daniel Celis Tobon](https://github.com/danicelistobon)
